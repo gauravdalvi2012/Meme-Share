@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Instantiate the RequestQueue.
         final RequestQueue queue = Volley.newRequestQueue(this);
-        String url ="https://meme-api.herokuapp.com/gimme";
+        String url ="https://meme-api.com/gimme";
 
         // Request a string response from the provided URL.
         JsonObjectRequest jsonObjectRequest = new JsonObjectRequest
